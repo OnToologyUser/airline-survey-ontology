@@ -8,7 +8,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:airline-survey="http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/danel/ontologies/2024/3/flight-survey">
         <dc:title xml:lang="en">Flight Survey Ontology</dc:title>
         <dc:description xml:lang="en">Ontology of flight surveys</dc:description>
