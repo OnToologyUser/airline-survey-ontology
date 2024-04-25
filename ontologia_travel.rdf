@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey/"
-     xml:base="http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey/"
+<rdf:RDF xmlns="http://www.semanticweb.org/danel/ontologies/2024/3/flight-survey/"
+     xml:base="http://www.semanticweb.org/danel/ontologies/2024/3/flight-survey/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -9,7 +9,10 @@
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:airline-survey="http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/danel/ontologies/2024/3/flight-survey">
+        <rdfs:comment xml:lang="en">Ontology of flight surveys</rdfs:comment>
+        <rdfs:label xml:lang="en">airline ontology</rdfs:label>
+    </owl:Ontology>
     
 
 
@@ -615,9 +618,9 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review_Instance">
         <rdf:type rdf:resource="http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review"/>
         <airline-survey:hasBody>Remarkable experience. Great tasting food, leg space and incredible service, and a very clean plane. Inflight entertainment was great too. The staff was very polite.</airline-survey:hasBody>
-        <airline-survey:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</airline-survey:hasRating>
+        <airline-survey:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</airline-survey:hasRating>
         <airline-survey:hasTitle>“incredible service”</airline-survey:hasTitle>
-        <airline-survey:isRecommended rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</airline-survey:isRecommended>
+        <airline-survey:isRecommended rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</airline-survey:isRecommended>
     </owl:NamedIndividual>
     
 
