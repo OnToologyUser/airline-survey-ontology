@@ -107,6 +107,9 @@
     "EconomyClassSeat" : {
       "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#EconomyClassSeat"
     },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
     "Airline" : {
       "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Airline"
     },
@@ -142,6 +145,9 @@
     "hasTravelType" : {
       "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTravelType",
       "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "SoloLeisureTravel" : {
       "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#SoloLeisureTravel"
