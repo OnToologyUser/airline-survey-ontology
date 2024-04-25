@@ -1,0 +1,21 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "airline-survey:Destination" "airline-survey:EconomyClassSeat" "airline-survey:Country" "airline-survey:FirstClassSeat" "airline-survey:CoupleLeisureTravel" "airline-survey:PassengerCountry" "airline-survey:Date" "airline-survey:FlightDate" "airline-survey:Review" "airline-survey:SoloLeisureTravel" "airline-survey:BusinessClassSeat" "airline-survey:TravelType" "airline-survey:BusinessTravel" "airline-survey:SeatClass" "airline-survey:Origin" "airline-survey:NegativeReview" "airline-survey:PremiumEconomyClassSeat" "airline-survey:NeutralReview" "airline-survey:FamilyLeisureTravel" "airline-survey:City" "airline-survey:PositiveReview" ; /*classes style*/
+	"airline-survey:PremiumEconomyClassSeat" -> "airline-survey:SeatClass" [ label = "rdfs:subClassOf" ];
+	"airline-survey:BusinessTravel" -> "airline-survey:TravelType" [ label = "rdfs:subClassOf" ];
+	"airline-survey:Destination" -> "airline-survey:City" [ label = "rdfs:subClassOf" ];
+	"airline-survey:NegativeReview" -> "airline-survey:Review" [ label = "rdfs:subClassOf" ];
+	"airline-survey:CoupleLeisureTravel" -> "airline-survey:TravelType" [ label = "rdfs:subClassOf" ];
+	"airline-survey:EconomyClassSeat" -> "airline-survey:SeatClass" [ label = "rdfs:subClassOf" ];
+	"airline-survey:SoloLeisureTravel" -> "airline-survey:TravelType" [ label = "rdfs:subClassOf" ];
+	"airline-survey:FlightDate" -> "airline-survey:Date" [ label = "rdfs:subClassOf" ];
+	"airline-survey:BusinessClassSeat" -> "airline-survey:SeatClass" [ label = "rdfs:subClassOf" ];
+	"airline-survey:FirstClassSeat" -> "airline-survey:SeatClass" [ label = "rdfs:subClassOf" ];
+	"airline-survey:NeutralReview" -> "airline-survey:Review" [ label = "rdfs:subClassOf" ];
+	"airline-survey:PassengerCountry" -> "airline-survey:Country" [ label = "rdfs:subClassOf" ];
+	"airline-survey:FamilyLeisureTravel" -> "airline-survey:TravelType" [ label = "rdfs:subClassOf" ];
+	"airline-survey:Origin" -> "airline-survey:City" [ label = "rdfs:subClassOf" ];
+	"airline-survey:PositiveReview" -> "airline-survey:Review" [ label = "rdfs:subClassOf" ];
+
+}
