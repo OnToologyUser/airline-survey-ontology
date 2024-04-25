@@ -1,0 +1,150 @@
+{
+  "@context" : {
+    "hasTitle" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRating" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasRating"
+    },
+    "Review" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review"
+    },
+    "Country" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Country"
+    },
+    "hasAircraft" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasAircraft",
+      "@type" : "@id"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "PassengerCountry" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PassengerCountry"
+    },
+    "isRecommended" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#isRecommended",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "SeatClass" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#SeatClass"
+    },
+    "hasDestination" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasDestination",
+      "@type" : "@id"
+    },
+    "hasFlightDate" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasFlightDate",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Destination" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Destination"
+    },
+    "hasReview" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasReview",
+      "@type" : "@id"
+    },
+    "PremiumEconomyClassSeat" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PremiumEconomyClassSeat"
+    },
+    "Origin" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Origin"
+    },
+    "operatedBy" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#operatedBy",
+      "@type" : "@id"
+    },
+    "Date" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Date"
+    },
+    "TravelType" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#TravelType"
+    },
+    "CoupleLeisureTravel" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#CoupleLeisureTravel"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "NeutralReview" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NeutralReview"
+    },
+    "FirstClassSeat" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FirstClassSeat"
+    },
+    "hasFlight" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasFlight",
+      "@type" : "@id"
+    },
+    "FamilyLeisureTravel" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FamilyLeisureTravel"
+    },
+    "Passenger" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger"
+    },
+    "hasBody" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasBody",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "BusinessClassSeat" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessClassSeat"
+    },
+    "Aircraft" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Aircraft"
+    },
+    "FlightDate" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FlightDate"
+    },
+    "hasSeatClass" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasSeatClass",
+      "@type" : "@id"
+    },
+    "EconomyClassSeat" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#EconomyClassSeat"
+    },
+    "Airline" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Airline"
+    },
+    "Flight" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight"
+    },
+    "City" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#City"
+    },
+    "NegativeReview" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NegativeReview"
+    },
+    "hasOrigin" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasOrigin",
+      "@type" : "@id"
+    },
+    "hasCountryOfOrigin" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasCountryOfOrigin",
+      "@type" : "@id"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "PositiveReview" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PositiveReview"
+    },
+    "BusinessTravel" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessTravel"
+    },
+    "hasTravelType" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTravelType",
+      "@type" : "@id"
+    },
+    "SoloLeisureTravel" : {
+      "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#SoloLeisureTravel"
+    }
+  }
+}
